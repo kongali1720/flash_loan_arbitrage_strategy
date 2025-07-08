@@ -1,9 +1,26 @@
+<p align="center">
+  <img src="https://cryptologos.cc/logos/aave-aave-logo.png?v=026" alt="Aave" width="50"/>
+  &nbsp;&nbsp;
+  <img src="https://cryptologos.cc/logos/uniswap-uniswap-logo.png?v=026" alt="Uniswap" width="50"/>
+  &nbsp;&nbsp;
+  <img src="https://cryptologos.cc/logos/sushiswap-sushi-logo.png?v=026" alt="SushiSwap" width="50"/>
+  &nbsp;&nbsp;
+  <img src="https://cryptologos.cc/logos/1inch-1inch-logo.png?v=026" alt="1inch" width="50"/>
+  &nbsp;&nbsp;
+  <img src="https://cryptologos.cc/logos/dydx-dydx-logo.png?v=026" alt="dYdX" width="50"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn-icons-png.flaticon.com/512/2620/2620454.png" alt="FlashLoan" width="40"/>
+</p>
+
+
 <h1 align="center">⚡ Flash Loan Arbitrage Bot & Smart Contract</h1>
+
 <p align="center">
   <strong>By <a href="https://github.com/kongali1720">kongali1720</a></strong>
 </p>
 
 <p align="center">
+  <!-- GitHub Stats -->
   <a href="https://github.com/kongali1720/flash-loan-arbitrage/stargazers">
     <img src="https://img.shields.io/github/stars/kongali1720/flash-loan-arbitrage?style=for-the-badge&color=blueviolet" alt="GitHub Stars" />
   </a>
@@ -15,6 +32,17 @@
   </a>
   <img src="https://img.shields.io/github/license/kongali1720/flash-loan-arbitrage?style=for-the-badge&color=brightgreen" alt="License" />
   <img src="https://img.shields.io/github/last-commit/kongali1720/flash-loan-arbitrage?style=for-the-badge&color=yellow" alt="Last Commit" />
+</p>
+
+<p align="center">
+  <!-- Deployment & Info -->
+  <img src="https://img.shields.io/badge/DEPLOYED%20TO-Sepolia-blue?style=for-the-badge&logo=ethereum" alt="Deployed to Sepolia" />
+  &nbsp;
+  <a href="https://sepolia.etherscan.io/address/0x0dB8113569a648c31F1eE6DfbAB2AC5Eb19389A7" target="_blank">
+    <img src="https://img.shields.io/badge/Verified%20on-Etherscan-4c4c4c?style=for-the-badge&logo=etherscan&logoColor=white" alt="Verified on Etherscan" />
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20by%20kongali1720-ff69b4?style=for-the-badge" alt="Made with love" />
 </p>
 
 
@@ -184,6 +212,74 @@ flash-loan-arbitrage/
   ✅ Siap pindah ke mainnet / cari funding / bounties
 
 ---
+
+## 💸 Penyedia Flash Loan (Flash Loan Providers)
+
+| Nama Protocol | Keterangan                                 |
+|---------------|---------------------------------------------|
+| **Aave**      | Penyedia flash loan utama (trusted, cepat) |
+| **DODO**      | Flash loan-style via PMM (Proactive Market Maker) |
+| **DyDx**      | DEX margin trading (bisa untuk arbitrase perpetual) |
+| **Uniswap v3 (via flash swaps)** | Tidak disebut “flash loan”, tapi bisa swap tanpa modal awal |
+| **Balancer**  | Flash loan via custom vault pool |
+| **Cream Finance** | Fork Aave/Compound, juga punya flash loan |
+| **Fuse/Volt** | Alternatif dari Rari Capital |
+
+---
+
+## 🔄 Tempat Arbitrase (Decentralized Exchanges / DEX)
+
+| DEX Name        | Catatan                                      |
+|------------------|----------------------------------------------|
+| **Uniswap**      | Likuiditas tinggi, paling sering digunakan  |
+| **SushiSwap**    | Fork Uniswap, kadang punya slippage tinggi  |
+| **Curve Finance**| Terbaik untuk stablecoin arbitrage          |
+| **1inch**        | Aggregator, mencari rute swap termurah      |
+| **Balancer**     | Khusus pool berbobot (terjadi slippage aneh)|
+| **PancakeSwap**  | Jaringan BSC, cocok untuk arbitrase multi-chain |
+| **KyberSwap**    | Aggregator + router, cocok buat scanning    |
+
+---
+
+## 🪙 Token Umum untuk Arbitrase
+
+| Token       | Keterangan                                |
+|-------------|--------------------------------------------|
+| **ETH / WETH** | Biasanya jadi aset dasar pinjaman / swap |
+| **USDC / USDT** | Stablecoin utama, banyak digunakan di pool |
+| **DAI**       | Stablecoin terdesentralisasi              |
+| **WBTC**      | Bitcoin versi ERC20                       |
+| **AAVE**      | Native token dari Aave                    |
+| **CRV**       | Native token Curve                        |
+| **UNI / SUSHI** | Token governance DEX                    |
+| **1INCH**     | Token aggregator                          |
+
+---
+
+## 🔁 Jaringan Blockchain yang Cocok
+
+| Network         | Keterangan                                     |
+|------------------|-----------------------------------------------|
+| **Ethereum Mainnet** | Likuiditas tinggi, tapi gas fee besar     |
+| **Sepolia / Goerli** | Testnet untuk simulasi
+
+---
+
+
+## Diagram Flowchart Flash Loan Arbitrage
+
+```mermaid
+flowchart TD
+    A[Start] --> B[Pinjam Flash Loan dari Aave]
+    B --> C[Lakukan Swap di Uniswap ETH ke USDT]
+    C --> D[Lakukan Swap di SushiSwap USDT ke ETH]
+    D --> E{Profit > Gas dan Fee?}
+    E -- Yes --> F[Bayar Kembali Flash Loan dan Fee]
+    E -- No --> G[Batalkan Transaksi Revert]
+    F --> H[Ambil Profit ke Wallet]
+    G --> H
+    H --> I[End]
+```
 
 ## ✅ Gaspol coding squad Indonesia! 🚀💻
 
