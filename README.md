@@ -1,23 +1,23 @@
 <p align="center">
-  <img src="assets/eth.png" alt="Ethereum" width="50" />
+  <img src="eth.png" alt="Ethereum" width="50" />
   &nbsp;&nbsp;
-  <img src="assets/aave.png" alt="Aave" width="50" />
+  <img src="aave.png" alt="Aave" width="50" />
   &nbsp;&nbsp;
-  <img src="assets/uniswap.png" alt="Uniswap" width="50" />
+  <img src="/uniswap.png" alt="Uniswap" width="50" />
   &nbsp;&nbsp;
-  <img src="assets/sushiswap.png" alt="SushiSwap" width="50" />
+  <img src="sushiswap.png" alt="SushiSwap" width="50" />
   &nbsp;&nbsp;
-  <img src="assets/1inch.png" alt="1inch" width="50" />
+  <img src="1inch.png" alt="1inch" width="50" />
   &nbsp;&nbsp;
-  <img src="assets/usdc.png" alt="USDC" width="50" />
+  <img src="usdc.png" alt="USDC" width="50" />
   &nbsp;&nbsp;
-  <img src="assets/dai.png" alt="DAI" width="50" />
+  <img src="dai.png" alt="DAI" width="50" />
   &nbsp;&nbsp;
-  <img src="assets/bnb.png" alt="BNB" width="50" />
+  <img src="bnb.png" alt="BNB" width="50" />
   &nbsp;&nbsp;
-  <img src="assets/ltc.png" alt="Litecoin" width="50" />
+  <img src="ltc.png" alt="Litecoin" width="50" />
   &nbsp;&nbsp;
-  <img src="assets/chainlink.png" alt="Chainlink" width="50" />
+  <img src="chainlink.png" alt="Chainlink" width="50" />
 </p>
 
 
@@ -28,20 +28,6 @@
   <strong>By <a href="https://github.com/kongali1720">kongali1720</a></strong>
 </p>
 
-<p align="center">
-  <!-- GitHub Stats -->
-  <a href="https://github.com/kongali1720/flash-loan-arbitrage/stargazers">
-    <img src="https://img.shields.io/github/stars/kongali1720/flash-loan-arbitrage?style=for-the-badge&color=blueviolet" alt="GitHub Stars" />
-  </a>
-  <a href="https://github.com/kongali1720/flash-loan-arbitrage/network">
-    <img src="https://img.shields.io/github/forks/kongali1720/flash-loan-arbitrage?style=for-the-badge&color=cyan" alt="GitHub Forks" />
-  </a>
-  <a href="https://github.com/kongali1720/flash-loan-arbitrage/issues">
-    <img src="https://img.shields.io/github/issues/kongali1720/flash-loan-arbitrage?style=for-the-badge&color=orange" alt="GitHub Issues" />
-  </a>
-  <img src="https://img.shields.io/github/license/kongali1720/flash-loan-arbitrage?style=for-the-badge&color=brightgreen" alt="License" />
-  <img src="https://img.shields.io/github/last-commit/kongali1720/flash-loan-arbitrage?style=for-the-badge&color=yellow" alt="Last Commit" />
-</p>
 
 <p align="center">
   <!-- Deployment & Info -->
