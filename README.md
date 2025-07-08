@@ -1,24 +1,25 @@
 <p align="center">
-  <img src="eth.png" alt="Ethereum" width="50" />
+  <img src="eth.png" alt="Ethereum" width="50" style="vertical-align:middle;" />
   &nbsp;&nbsp;
-  <img src="aave.png" alt="Aave" width="50" />
+  <img src="aave.png" alt="Aave" width="50" style="vertical-align:middle;" />
   &nbsp;&nbsp;
-  <img src="/uniswap.png" alt="Uniswap" width="50" />
+  <img src="uniswap.png" alt="Uniswap" width="50" style="vertical-align:middle;" />
   &nbsp;&nbsp;
-  <img src="sushiswap.png" alt="SushiSwap" width="50" />
+  <img src="sushiswap.png" alt="SushiSwap" width="50" style="vertical-align:middle;" />
   &nbsp;&nbsp;
-  <img src="1inch.png" alt="1inch" width="50" />
+  <img src="1inch.png" alt="1inch" width="50" style="vertical-align:middle;" />
   &nbsp;&nbsp;
-  <img src="usdc.png" alt="USDC" width="50" />
+  <img src="usdc.png" alt="USDC" width="50" style="vertical-align:middle;" />
   &nbsp;&nbsp;
-  <img src="dai.png" alt="DAI" width="50" />
+  <img src="dai.png" alt="DAI" width="50" style="vertical-align:middle;" />
   &nbsp;&nbsp;
-  <img src="bnb.png" alt="BNB" width="50" />
+  <img src="bnb.png" alt="BNB" width="50" style="vertical-align:middle;" />
   &nbsp;&nbsp;
-  <img src="ltc.png" alt="Litecoin" width="50" />
+  <img src="ltc.png" alt="Litecoin" width="50" style="vertical-align:middle;" />
   &nbsp;&nbsp;
-  <img src="chainlink.png" alt="Chainlink" width="50" />
+  <img src="chainlink.png" alt="Chainlink" width="50" style="vertical-align:middle;" />
 </p>
+
 
 
 
