@@ -4,16 +4,19 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/kongali1720/flash-loan-arbitrage?style=social" alt="GitHub stars" />
-  &nbsp;&nbsp;
-  <img src="https://img.shields.io/github/forks/kongali1720/flash-loan-arbitrage?style=social" alt="GitHub forks" />
-  &nbsp;&nbsp;
-  <img src="https://img.shields.io/github/issues/kongali1720/flash-loan-arbitrage" alt="GitHub issues" />
-  &nbsp;&nbsp;
-  <img src="https://img.shields.io/github/license/kongali1720/flash-loan-arbitrage" alt="License" />
-  &nbsp;&nbsp;
-  <img src="https://img.shields.io/github/last-commit/kongali1720/flash-loan-arbitrage" alt="Last Commit" />
+  <a href="https://github.com/kongali1720/flash-loan-arbitrage/stargazers">
+    <img src="https://img.shields.io/github/stars/kongali1720/flash-loan-arbitrage?style=for-the-badge&color=blueviolet" alt="GitHub Stars" />
+  </a>
+  <a href="https://github.com/kongali1720/flash-loan-arbitrage/network">
+    <img src="https://img.shields.io/github/forks/kongali1720/flash-loan-arbitrage?style=for-the-badge&color=cyan" alt="GitHub Forks" />
+  </a>
+  <a href="https://github.com/kongali1720/flash-loan-arbitrage/issues">
+    <img src="https://img.shields.io/github/issues/kongali1720/flash-loan-arbitrage?style=for-the-badge&color=orange" alt="GitHub Issues" />
+  </a>
+  <img src="https://img.shields.io/github/license/kongali1720/flash-loan-arbitrage?style=for-the-badge&color=brightgreen" alt="License" />
+  <img src="https://img.shields.io/github/last-commit/kongali1720/flash-loan-arbitrage?style=for-the-badge&color=yellow" alt="Last Commit" />
 </p>
+
 
 <hr />
 
