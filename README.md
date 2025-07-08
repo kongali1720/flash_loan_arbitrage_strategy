@@ -1,16 +1,25 @@
 <p align="center">
-  <img src="https://cryptologos.cc/logos/aave-aave-logo.png?v=026" alt="Aave" width="50"/>
+  <img src="assets/eth.png" alt="Ethereum" width="50" />
   &nbsp;&nbsp;
-  <img src="https://cryptologos.cc/logos/uniswap-uniswap-logo.png?v=026" alt="Uniswap" width="50"/>
+  <img src="assets/aave.png" alt="Aave" width="50" />
   &nbsp;&nbsp;
-  <img src="https://cryptologos.cc/logos/sushiswap-sushi-logo.png?v=026" alt="SushiSwap" width="50"/>
+  <img src="assets/uniswap.png" alt="Uniswap" width="50" />
   &nbsp;&nbsp;
-  <img src="https://cryptologos.cc/logos/1inch-1inch-logo.png?v=026" alt="1inch" width="50"/>
+  <img src="assets/sushiswap.png" alt="SushiSwap" width="50" />
   &nbsp;&nbsp;
-  <img src="https://cryptologos.cc/logos/dydx-dydx-logo.png?v=026" alt="dYdX" width="50"/>
+  <img src="assets/1inch.png" alt="1inch" width="50" />
   &nbsp;&nbsp;
-  <img src="https://cdn-icons-png.flaticon.com/512/2620/2620454.png" alt="FlashLoan" width="40"/>
+  <img src="assets/usdc.png" alt="USDC" width="50" />
+  &nbsp;&nbsp;
+  <img src="assets/dai.png" alt="DAI" width="50" />
+  &nbsp;&nbsp;
+  <img src="assets/bnb.png" alt="BNB" width="50" />
+  &nbsp;&nbsp;
+  <img src="assets/ltc.png" alt="Litecoin" width="50" />
+  &nbsp;&nbsp;
+  <img src="assets/chainlink.png" alt="Chainlink" width="50" />
 </p>
+
 
 
 <h1 align="center">⚡ Flash Loan Arbitrage Bot & Smart Contract</h1>
