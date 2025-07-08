@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Flash Loan Arbitrage UI</title>
+<script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.min.js"></script>
+</head>
+<body>
+<h2>Flash Loan Arbitrage</h2>
+<button id="flashLoanBtn">Request Flash Loan</button>
+
+<script>
+  async function requestFlashLoan() {
+    if (!window.ethereum) {
+      alert("Please install MetaMask!");
+      return;
+    }
+    const provider = new ethers.providers.Web3Provider(window.ethereum);
+    await provider.send("eth_requestAccounts", []);
+    const signer = provider.getSigner();
+
+    const contractAddress = "0xYourContractAddress";
+    const abi = ["function requestFlashLoan(address[] calldata assets, uint256[] calldata amounts) external"];
+    const contract = new ethers.Contract(contractAddress, abi, signer);
+
+    const assets = ["0xC02aaa39b223FE8D0a0e5C4F27eAD9083C756Cc2"]; // WETH
+    const amounts = [ethers.utils.parseEther("10")];
+
+    try {
+      const tx = await contract.requestFlashLoan(assets, amounts);
+      await tx.wait();
+      alert("Flash Loan executed!");
+    } catch (err) {
+      alert("Error: " + err.message);
+    }
+  }
+
+  document.getElementById("flashLoanBtn").onclick = requestFlashLoan;
+</script>
+</body>
+</html>
